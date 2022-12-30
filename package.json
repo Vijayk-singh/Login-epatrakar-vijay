@@ -1,0 +1,24 @@
+{
+  "name": "news-basic",
+  "version": "1.0.0",
+  "description": "used to fetch and post news ",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "author": "purushotham",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "mongoose": "^6.7.3",
+    "mongoose-sequence": "^5.3.1",
+    "multer": "^1.4.5-lts.1",
+    "morgan": "~1.9.1",
+    "http-errors": "~1.6.3",
+    "cookie-parser": "~1.4.4"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
